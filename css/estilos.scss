@@ -1,0 +1,35 @@
+*:active,
+*:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+body {
+	box-sizing: border-box;
+	margin: 4%;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+}
+
+#container {
+    width: 100%;
+}
+
+
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 10em;
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12), .3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+}
+
+#datosJokes {
+    font-family: 'Barrio', cursive;
+    font-size: 6em;
+}
